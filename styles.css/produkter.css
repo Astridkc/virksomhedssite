@@ -1,0 +1,108 @@
+.midt_tekst {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #011589;
+}
+
+.midt_tekst_mobil,
+.tekst {
+  color: #011589;
+}
+
+@media (max-width: 699px) {
+  .midt_tekst_mobil {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Produkter (Desktop) */
+@media (min-width: 700px) {
+  .grid_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .grid_1_1 img {
+    object-fit: cover;
+    align-self: stretch;
+  }
+}
+
+.grid_1_1_img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.grid_1_1 img {
+  object-fit: cover;
+  align-self: stretch;
+}
+
+.xl_billede {
+  grid-column: 1/4;
+  grid-row: span 2;
+  grid-row: 1/4;
+}
+
+.farver {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.dot_blå {
+  height: 40px;
+  width: 40px;
+  background-color: #043862;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot_cyan {
+  height: 40px;
+  width: 40px;
+  background-color: #135c5c;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot_mørkegrøn {
+  height: 40px;
+  width: 40px;
+  background-color: #064625;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot_grøn {
+  height: 40px;
+  width: 40px;
+  background-color: #195d17;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot_oliven {
+  height: 40px;
+  width: 40px;
+  background-color: #7c7b06;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.line {
+  height: 1px;
+  background-color: #f193ad;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.kort_line {
+  height: 1px;
+  background-color: #f193ad;
+  margin: 20px 0;
+  width: 35%;
+}
