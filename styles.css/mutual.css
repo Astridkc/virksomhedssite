@@ -1,3 +1,21 @@
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+main {
+  max-width: 1200px; /** Størrelse på skærm **/
+  margin-inline: auto; /** Centrerer **/
+  padding-left: 1rem; /** Venstre luft **/
+  padding-right: 1rem; /** Højre luft **/
+  background-color: #efe6dd;
+}
+
+body {
+  background-color: #efe6dd;
+}
+
 /* Menu */
 
 * {
@@ -124,13 +142,66 @@ nav {
   }
 }
 
-.footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px;
+/* FOOTER */
+
+/* Footer (Desktop) */
+@media (min-width: 700px) {
+  .grid_1_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-left: 11rem;
+  }
+}
+
+@media (max-width: 699px) {
+  .grid_1_1_1 {
+    text-align: center;
+  }
+
+  input {
+    margin-left: 6rem;
+  }
+  form button {
+    margin-left: 10rem;
+  }
+}
+
+footer {
   background-color: #011589;
   color: #efe6dd;
   font-family: "Aboreto", system-ui;
+  display: grid;
+  padding: 2rem;
+}
+
+label,
+input,
+button {
+  display: block;
+  font-family: "Aboreto", system-ui;
+}
+
+form input,
+form text {
+  background-color: #efe6dd; /* Lysegrå baggrund */
+  border: none;
+  padding: 7px;
+  margin-bottom: 20px;
+}
+
+form button {
+  background-color: #efe6dd;
+  color: #011589;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+form button:hover {
+  background-color: #efe6dd;
+  color: #acc5e5;
 }
 
 /* FONTS */
@@ -141,6 +212,10 @@ nav {
   font-style: normal;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4 {
   font-family: "Aboreto", system-ui;
+  margin-bottom: 10px;
 }
