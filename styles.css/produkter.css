@@ -1,3 +1,5 @@
+/* Centrer valgt tekst i midten på både mobil og desktop */
+
 .midt_tekst {
   text-align: center;
   margin-top: 2rem;
@@ -10,6 +12,8 @@
   color: #011589;
 }
 
+/* Specifik centreret tekst på mobil */
+
 @media (max-width: 699px) {
   .midt_tekst_mobil {
     text-align: center;
@@ -18,18 +22,16 @@
 }
 
 /* Produkter (Desktop) */
+
 @media (min-width: 700px) {
   .grid_1_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
-  }
-
-  .grid_1_1 img {
-    object-fit: cover;
-    align-self: stretch;
+    gap: 20px;
   }
 }
+
+/* Billede-grid på både mobil og desktop */
 
 .grid_1_1_img {
   display: grid;
@@ -37,16 +39,15 @@
   gap: 10px;
 }
 
-.grid_1_1 img {
-  object-fit: cover;
-  align-self: stretch;
-}
+/* Gør det store billede størst og får det til at fylde hele den valgte grid */
 
 .xl_billede {
   grid-column: 1/4;
   grid-row: span 2;
   grid-row: 1/4;
 }
+
+/* Design af farvede prikker */
 
 .farver {
   display: flex;
@@ -92,6 +93,8 @@
   border-radius: 50%;
   display: inline-block;
 }
+
+/* Lyserøde linjer */
 
 .line {
   height: 1px;
