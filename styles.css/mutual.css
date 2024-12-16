@@ -12,8 +12,12 @@ main {
   background-color: #efe6dd;
 }
 
+html {
+  --primary: #efe6dd;
+}
+
 body {
-  background-color: #efe6dd;
+  background-color: var(--primary);
 }
 
 /* Menu */
