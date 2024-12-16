@@ -1,0 +1,22 @@
+.overskrift {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.forhandlere {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.forhandlere_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.om_h4 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
