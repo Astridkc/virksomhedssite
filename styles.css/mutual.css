@@ -20,6 +20,10 @@ body {
   background-color: var(--primary);
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Menu */
 
 * {
