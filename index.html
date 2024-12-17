@@ -8,6 +8,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Aboreto&family=Creepster&family=Dancing+Script:wght@400..700&family=Maitree&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
         rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Joan&family=Jomolhari&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Stint+Ultra+Expanded&family=Yanone+Kaffeesatz:wght@200..700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css/mutual.css">
     <link rel="stylesheet" href="styles.css/index.css">
 
@@ -22,7 +25,9 @@
         </div>
 
         <div>
-            <h1 class="menu_tekst">Ane Schollert</h1>
+            <a href="index.html">
+                <h1 class="menu_tekst">Ane Schollert</h1>
+            </a>
         </div>
 
         <nav>
@@ -41,30 +46,84 @@
     </header>
 
     <main>
+        <section id="hero">
+            <div class="video_container">
+                <video autoplay loop muted playsinline>
+                    <source src="aneschollert_herovideo.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="hero_tekst">
+                <h1>Dansk håndlavet keramik</h1>
+                <h2>Farver og forskønner hverdagen</h2>
+            </div>
+        </section>
 
-        <h1>ane Schollert</h1>
+        <h1> <br> Jul i keramikbutikken</h1>
+        <p>Traditionen tro, holder jeg julesalg i min hyggelige butik, og jeg håber at du får tid til
+            at kigge forbi. <br> <br>
 
+            Værkstedet bugner af masser af ny lavet keramik – her er fyldt med kopper, tallerkener, fade, vaser og de
+            små juletræer. I grønne, tyrkiske, blå, lime og lyserøde.
+            Her er masser af gaveideer, og selvfølgelig gode tilbud og en hel del ny 2. sortering. <br> <br>
 
+            Jeg tænder lys, hygge og julemusik - resten af november og indtil 22. december. <br><br>
+            Som altid fra nu af og frem til jul, har jeg også åbent efter aftale – så ring, skriv eller sms, og hvis du
+            ikke kan nå forbi - sig til – for jeg sender også i flot gaveindpakning. <br><br>
+            Derudover altid åbent når jeg er der, ring eller SMS gerne og hør.
 
+            Andre dage efter aftale. Ændringer på FB eller Instagram.
 
+            Mangler du en gave eller en farvestrålende opmuntring til dig selv sender jeg gerne, men du kan selvfølgelig
+            også afhente. Jeg kan sende priser, farver og størrelser på mail eller sms, FaceTime hvis du vil se et
+            større udvalg. Gavekort kan laves og sendes på mail. <br><br></p>
 
 
 
     </main>
 
     <footer>
-        <div class="footer">
+        <div class="grid_1_1_1">
             <div>
-                <h3>Tilmeld dig nyhedsbrev</h3>
-                <h4>Få blandt andet invitaion til julemarked og andre udstillinger</h4>
+                <h3>Tilmeld dig nyhedsbrevet</h3>
+
+                <h4>Få blandt andet invitation til <br> julemarked og andre <br> udstillinger</h4>
             </div>
 
             <div>
                 <h3>Find mig her</h3>
-                <h4>Guldbergsgade 41. <br> 2200, købnehavn N</h4>
 
+                <h4>Guldbergsgade 41 <br> 2200, købnehavn N</h4>
+            </div>
+
+            <div>
+                <h3>Kontakt mig</h3>
+
+                <h4>Telefon <br> +45 27 64 11 91</h4>
+            </div>
+        </div>
+
+        <div class="grid_1_1_1">
+            <div>
+                <form>
+
+                    <label for="full-name">Fulde navn</label>
+                    <input id="full-name" name="fname" type="text">
+
+                    <label for="email">E-mail</label>
+                    <input id="email" name="email" type="email">
+
+                    <label for="besked">Besked</label>
+                    <input id="besked" name="besked" type="text">
+
+                    <button>Indsend</button>
+
+                </form>
+            </div>
+            <div>
                 <h3>Åbningstider</h3>
-                <h4>onsdag kl. 11 - 17:30
+
+                <h4>
+                    onsdag kl. 11 - 17:30
                     <br>
                     Torsdag kl. 11 - 17:30
                     <br>
@@ -75,18 +134,11 @@
                     søndag kl. 11 - 15
                 </h4>
             </div>
-
             <div>
-                <h3>Kontakt mig</h3>
-                <h4>Telefon
-                    <br>
-                    +45 27 64 11 91
-                </h4>
-                <h4>Mail
-                    <br>
-                    as@aneschollert.dk
-                </h4>
+
+                <h4>Mail <br> as@aneschollert.dk</h4>
             </div>
+
         </div>
     </footer>
     <script src="menu.js"></script>
