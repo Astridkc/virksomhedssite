@@ -5,10 +5,10 @@ img {
 }
 
 main {
-  max-width: 1200px; /** Størrelse på skærm **/
-  margin-inline: auto; /** Centrerer **/
-  padding-left: 1rem; /** Venstre luft **/
-  padding-right: 1rem; /** Højre luft **/
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
   background-color: #efe6dd;
 }
 
@@ -19,8 +19,6 @@ html {
 body {
   background-color: var(--primary);
 }
-
-/* Menu */
 
 * {
   margin: 0;
@@ -37,7 +35,7 @@ header {
   padding: 20px;
   background-color: #011589;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-  z-index: 1000; /* Gør z-index højere end hero-billedet */
+  z-index: 1000;
 }
 
 .logo img {
@@ -148,7 +146,7 @@ nav {
 }
 
 main {
-  flex-grow: 1; /* Let main content fill the remaining vertical space */
+  flex-grow: 1;
   padding: 2rem 1rem;
   width: 100%;
 }
@@ -160,7 +158,7 @@ ul {
   display: grid;
   grid-gap: 0.5rem;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  width: 100%; /* Stretch gallery to full width */
+  width: 100%;
   max-width: 100%;
 }
 
@@ -251,8 +249,7 @@ button {
 
 form input,
 form text {
-  background-color: #efe6dd; /* Lysegrå baggrund */
-  border: none;
+  background-color: #efe6dd;
   padding: 7px;
   margin-bottom: 20px;
 }
